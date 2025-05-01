@@ -1,3 +1,4 @@
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,9 +7,7 @@
     text-align: center;
 
 }
-body {
-    background-image: linear-gradient(rgb(167, 165, 165),rgb(57, 55, 55));
-}
+
 header {
     grid-column: 1 / 4;
     grid-row:1 / 2;
@@ -44,16 +43,16 @@ footer {
     border: black 2px solid;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
-    
     background-color: rgb(106, 20, 20);
     color: white;
    padding: 10px;
     text-align: center;
-   
     border-radius: 10px;
     margin: 0;
 }
-
+body {
+    background-color:rgb(167, 165, 165);
+}
 .title {
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
@@ -145,6 +144,7 @@ form {
     
 }
 
+
 a:visited {
     color: lightblue;
   }
@@ -153,3 +153,6 @@ a:visited {
   a:hover {
     color: white;
   }
+
+
+ 
