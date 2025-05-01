@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="submit.js"></script>
+</head>
+<body>
+  <header> 
+    <div class="title">
+    <h1>A Song of Ice and Fire</h1>
+</div>
+    <div class="nav-list">
+        <nav class="nav">
+          <a class="nav-link" href="home.html">Homepage</a>
+          <a class="nav-link" href="Prophecies.html">Prophecies</a>
+          <a class="nav-link" href="BvsS.html">Book vs Show</a>
+          <a class="nav-link" href="george.html">George RR. Martin</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        
+        </nav>
+    </div>
+</header>
+<form id="contact-form" action="submit.js" method="post">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Message</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Subscribe to Mailing list!</label>
+    </div>
+    <input class="button" type="button" value="submit" onclick="submitchanges();">
+   
+
+  </form>
+  <p id="Thankyou">&nbsp;</p>
+  <footer> 
+    <h2>About</h2>
+    <h3> A page dedicated to the A Song of Ice and Fire book series and related tv shows</h3>
+    <p>contact us at IceandFireWiki@gmail.com or navigate to our contact page to send us a message and subscribe to our mailing list!</p>
+</footer>
+  </body>
+</html>
